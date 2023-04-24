@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Contacto</title>
+  </head>
+
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <h1>Web sencilla</h1>
+    </header>
+    <div class="container">
+      <!-- Navegación / contenedor izquierdo -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="multimedia.html">Multimedia</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- Contenedor principal -->
+      <main>
+        <h1>Formulario</h1>
+        <center>
+          <form>
+            <table>
+              <tr>
+                <td><label for="nombre">Nombre:</label></td>
+                <td>
+                  <input type="text" id="nombre" name="nombre" required />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required /></td>
+              </tr>
+              <tr>
+                <td><label for="edad">Edad:</label></td>
+                <td><input type="number" id="edad" name="edad" /></td>
+              </tr>
+              <tr>
+                <td><label for="color-preferido">Color preferido:</label></td>
+                <td>
+                  <input
+                    type="color"
+                    id="color-preferido"
+                    name="color-preferido"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="comentario">Comentario:</label></td>
+                <td>
+                  <textarea
+                    id="comentario"
+                    name="comentario"
+                    minlength="10"
+                  ></textarea>
+                </td>
+              </tr>
+            </table>
+            <input type="submit" value="Enviar" />
+          </form>
+          <section>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.8702577809454!2d-60.64630682460093!3d-32.95443467359014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab11d0eb49c3%3A0x11f1d3d54f950dd0!2sUniversidad%20Tecnol%C3%B3gica%20Nacional%20%7C%20Facultad%20Regional%20Rosario!5e0!3m2!1sen!2sar!4v1682353867146!5m2!1sen!2sar"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </section>
+        </center>
+      </main>
+      <!-- Contenedor secundario / derecho -->
+      <div class="right">
+        <h2>Div derecho</h2>
+        <p>Aca iria el texto que corresponde al div derecho</p>
+      </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+      <p>© copyright labcomII.com</p>
+      <p>Texto que debería ir en el footer</p>
+    </footer>
+  </body>
+</html>

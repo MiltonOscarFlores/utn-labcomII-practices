@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <h1>Formulario de datos personales</h1>
+    <form action="">
+      <fieldset>
+        <legend>Informacion Personal</legend>
+        <input type="text" value="ESTUDIANTE" readonly />
+        <br />
+        <br />
+        <label for="text">Nombre y Apellido:</label>
+        <input
+          type="text"
+          name="text"
+          id="text"
+          placeholder="Ingresa tu nombre aquí"
+        />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Ingresa tu email aquí"
+        />
+        <br />
+        <br />
+        <label for="edad">Fecha de Nacimiento:</label>
+        <input type="date" name="date" id="date" />
+        <br />
+        <br />
+        <label for="nacionalidad">Nacionalidad:</label>
+        <select id="nacionalidad" name="nacionalidad">
+          <option value="">Seleccione</option>
+          <option value="argentina">Argentina</option>
+          <option value="otros">Otra</option>
+        </select>
+        <br />
+        <br />
+        <label for="Condicion">Condicion laboral:</label>
+        <select id="condicion" name="condicion">
+          <option value="">Seleccione</option>
+          <option value="desempleado">Desempleado</option>
+          <option value="enbúsqueda">En Búsqueda Laboral</option>
+          <option value="parttime">Trabajo Part Time</option>
+          <option value="fulltime">Trabajo FullTtime</option>
+        </select>
+      </fieldset>
+      <br /><br />
+      <fieldset>
+        <legend>Gustos Personales</legend>
+        <br />
+        <br />
+        <label for="gustos">Gustos musicales:</label>
+        <input
+          type="text"
+          name="text"
+          id="text"
+          placeholder="Ingresa algunos aquí"
+        />
+        <br />
+        <br />
+        <label for="comida">Comida Preferida:</label>
+        <select id="comida" name="comida">
+          <option value="">Seleccione</option>
+          <option value="asado">Asado</option>
+          <option value="guiso">Guiso</option>
+          <option value="puchero">Puchero</option>
+          <option value="sopa">Sopa</option>
+        </select>
+      </fieldset>
+      <br /><br />
+      <label for="checkbox">Recordar Informacion de usuario:</label>
+      <input type="checkbox" name="checkbox" id="checkbox">
+      <br>
+      <br>
+      <input type="button" value="Enviar">
+    </form>
+  </body>
+</html>
+<!--DONE-->
