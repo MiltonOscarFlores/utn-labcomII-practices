@@ -81,7 +81,7 @@ section.fullwidth {
 }
 
 section.fullwidth h2 {
-  text-align:center;
+  text-align: center;
 }
 
 section.main-image > div {
@@ -90,7 +90,7 @@ section.main-image > div {
 
 .center-both {
   display: flex;
-  justify-content:center ;
+  justify-content: center;
   align-items: center;
 }
 
@@ -130,8 +130,8 @@ section.main-image > div {
 
 footer {
   display: grid;
-  grid-template-columns: ;
-  background-color: ;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: rgb(240, 240, 240);
 }
 
 footer > div {
