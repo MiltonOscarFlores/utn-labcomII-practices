@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      legend {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+        text-transform: uppercase;
+      }
+     
+    </style>
+    <title>U04 - Calculadora EPE</title>
+  </head>
+  <body>
+    <h2>Calculadora EPE</h2>
+    <form id="formulario">
+      <fieldset>
+        <legend>Tipo de usuario</legend>
+        <label for="residencial">Residencial</label>
+        <input
+          type="radio"
+          name="tipousuario"
+          id="residencial"
+          value="residencial"
+        />
+        <label for="industrial">Industrial</label>
+        <input
+          type="radio"
+          name="tipousuario"
+          id="industrial"
+          value="industrial"
+        />
+        <br />
+      </fieldset>
+      <hr />
+      <fieldset>
+        <legend>Zona de Domicilio</legend>
+        <select name="distritos" id="distritos">
+          <option value="centro">Distrito Centro</option>
+          <option value="sur">Distrito Sur</option>
+          <option value="oeste">Distrito Oeste</option>
+          <option value="norte">Distrito Norte</option>
+        </select>
+      </fieldset>
+      <hr />
+      <fieldset>
+        <legend>Cantidad de kWh del mes</legend>
+        <input type="number" name="kwh" id="kwh" />
+      </fieldset>
+      <hr />
+      <button>Calcular</button>
+    </form>
+    <script>
+    //  VALIDACIONES
+    
+    </script>
+  </body>
+</html>
