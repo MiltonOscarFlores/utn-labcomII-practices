@@ -7,6 +7,7 @@
   <title>TUP LC2 - TP Integrador</title>
   <!-- Estilos CSS -->
   <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/pages/help.css">
 </head>
 
 <body>
@@ -50,13 +51,20 @@
 
         <label for="mensaje">Mensaje:</label>
         <textarea></textarea>
-
+        <div class="botones">
         <button type="reset">Limpiar</button>
         <button type="submit">Enviar</button>
+      </div>
       </form>
     </section>
-    <section id="sec-cine-result"></section>
+    <section id="sec-cine-result" class="sec-cine-result"></section>
     <!-- Sección donde se debe mostrar los mensajes de error -->
+    
+    <div class="div-error">
+      <span class="error" 
+        >La Película ingresada ya se encuentra almacenada
+      </span>
+    </div>
     </section>
     <p></p>
   </main>
