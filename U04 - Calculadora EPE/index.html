@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="img/epe.jpg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora EPE</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <h2>Calculadora de Costo de Energía eléctrica</h2>
+      <form id="formulario">
+        <fieldset>
+          <legend>Tipo de usuario</legend>
+          <label for="residencial">Residencial</label>
+          <input
+            type="radio"
+            name="tipousuario"
+            id="residencial"
+            value="residencial"
+            required
+          />
+          <label for="industrial">Industrial</label>
+          <input
+            type="radio"
+            name="tipousuario"
+            id="industrial"
+            value="industrial"
+            required
+          />
+          <br />
+        </fieldset>
+        <hr />
+        <fieldset>
+          <legend>Zona de Domicilio</legend>
+          <select name="distritos" id="distritos" required>
+            <option value="">Seleccionar zona</option>
+            <option value="centro">Distrito Centro</option>
+            <option value="sur">Distrito Sur</option>
+            <option value="oeste">Distrito Oeste</option>
+            <option value="norte">Distrito Norte</option>
+          </select>
+        </fieldset>
+        <hr />
+        <fieldset>
+          <legend>Cantidad de kWh del mes</legend>
+          <input type="number" name="kwh" id="kwh" min="1" required />
+        </fieldset>
+        <hr />
+        <button type="submit">Calcular</button>
+      </form>
+      <div class="info">
+        <!-- DIV para mostrar el resultado -->
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
