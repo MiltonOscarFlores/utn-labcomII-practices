@@ -1,0 +1,33 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos verticalmente */
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.error {
+  margin: 25px 0px;
+  padding: 5px 1px;
+
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+.respuesta {
+  margin: 25px 0px;
+  padding: 5px 1px;
+
+  background-color: rgb(67, 206, 67);
+  color: white;
+  font-weight: bold;
+}
+form {
+  padding: 20px 0px;
+}

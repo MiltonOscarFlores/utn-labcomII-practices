@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PREPARCIAL2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="contenedor" class="contenedor">
+      <form id="formulario1">
+        <fieldset>
+          <label for="pesos">Cantidad de pesos Argentinos: </label>
+          <input type="number" name="pesos" id="pesos" />
+          <br />
+          <br />
+          <label for="moneda">Convertir a : </label>
+          <select name="moneda" id="moneda">
+            <option value="dolares" selected>Dolares</option>
+            <option value="euros">Euros</option>
+          </select>
+          <br />
+          <br />
+          <button id="boton" type="submit">Calcular</button>
+        </fieldset>
+      </form>
+      <form id="formulario2">
+        <fieldset>
+            <legend><small>Agregar Otra divisa</small></legend>
+          <label for="nombreMoneda">Nombre de la moneda: </label>
+          <input type="text" name="nombreMoneda" id="nombreMoneda" />
+          <br />
+          <br />
+          <label for="costoConversion">Costo de conversión en pesos: </label>
+          <input type="number" name="costoConversion" id="costoConversion" />
+          <br>
+          <br>
+          <button id="botonAgregarMoneda" type="submit">Agregar Moneda</button>
+        </fieldset>
+      </form>
+      <div id="error"></div>
+      <div id="respuesta"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
