@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-family: "Lato", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -47,3 +48,54 @@ h2 {
   margin-top: 20px;
   font-weight: bold;
 }
+=======
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+  min-height: 97.5vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Estilos para el div contenedor */
+.contenedor {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); /* Color de fondo semitransparente */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px; 
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+legend {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.info {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+>>>>>>> fa50e50f4f7828a41395a7e15e61ec3397a997b5
