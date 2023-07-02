@@ -14,7 +14,7 @@ function suma(n1, n2) {
 function main() {
     let n1 = Number(prompt("Ingrese un numero"))
     let n2 = Number(prompt("Ingrese un numero"))
-    alert(suma(n1, n2))
+    alert(Math.abs( suma(n1, n2) ))
 
 }
 
