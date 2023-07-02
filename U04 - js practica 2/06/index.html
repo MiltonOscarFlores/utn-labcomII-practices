@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0 auto;
+      }
+
+      .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: calc(auto);
+        border: 3px solid black;
+        height: 280px;
+        width: 350px;
+      }
+      #concatenado {
+        margin-top: 20px;
+        padding: 3px;
+      }
+
+      input {
+        text-align: center;
+      }
+    </style>
+    <title>ejercicio6final</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <label for="nombre">Nombre: </label>
+      <input type="text" id="nombre" />
+      <label for="apellido">Apellido: </label>
+      <input type="text" id="apellido" />
+      <p>Tu nombre completo es:</p>
+      <button type="submit" id="boton">Mostrar</button>
+      <input type="text" id="concatenado" />
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
