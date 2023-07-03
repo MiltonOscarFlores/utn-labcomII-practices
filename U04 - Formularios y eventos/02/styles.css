@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenedor {
+  display: grid;
+  place-content: center;
+  border: 2px solid black;
+  padding: 30px;
+}
+
+.contenedor * {
+  padding: 3px;
+}
+
+#enviar,
+#limpiar {
+  margin-top: 7px;
+}
+
+.informacion {
+  margin-left: 40px;
+  padding: 20px;
+  /* width: 180px; */
+  max-width: 550px;
+}
+.borde {
+  border: 2px solid black;
+}

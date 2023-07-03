@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Actividad</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>Cargar Libro:</h1>
+      <label for="codigo">Codigo: </label>
+      <input type="number" name="codigo" id="codigo" />
+      <label for="nombreLibro">Nombre del Libro: </label>
+      <input type="text" name="nombreLibro" id="nombreLibro" />
+      <label for="tipo">Tipo: </label>
+      <select name="tipo" id="tipo">
+        <option value="novela">Novela</option>
+        <option value="teatro">Teatro</option>
+        <option value="poesia">Poesia</option>
+        <option value="ensayo">Ensayo</option>
+      </select>
+      <label for="editorial">Editorial: </label>
+      <input type="text" name="editorial" id="editorial" />
+      <label for="año">Año: </label>
+      <input type="date" name="año" id="año" />
+      <label for="autor">Apellido y Nombre del Autor: </label>
+      <input type="text" name="autor" id="autor" />
+
+      <input type="button" id="enviar" value="Enviar" />
+      <input type="button" id="limpiar" value="Limpiar" />
+    </div>
+    <div class="informacion">
+      <!-- ACA SE MUESTRA LA INFO DEL LIBRO -->
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
